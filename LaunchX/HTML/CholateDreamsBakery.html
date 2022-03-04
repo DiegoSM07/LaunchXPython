@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cholate Dreams Bakery</title>
+</head>
+<body>
+    <img src="./imagenes/Cholatedreams.png" alt="chocolatedreams" width="200px" >
+    <h1>Cholate Dreams Bakery</h1>
+    <p>Bienvenidos a los sueños echos realidad</p>
+
+    
+    <h2>Menú Pastelero</h2>
+    
+    <p>Pastel 100% de chocolate ......... $300</p>
+    <ul>Pastel especialidad de casa, con un toque de caco poblano </ul>
+    <p>Pastel especial ........... $340</p>
+    <ul>Variedad de pasteles de sabores, una experiencia de sabor echa realidad!</ul>
+    <p>Pastel decorativo .......... $Segun lo elegido </p>
+    <ul>Pastel decorativo, muy buena opcion para fiestas </ul>
+    
+    <hr>
+
+    <h2>Pedido</h2>
+    <input type="radio" id="chocolate" name="Pastel de chocolate" value="Pastel de chocolate">
+    <label for="roja">Pastel de chocolate</label><br>
+    <ul>
+
+        <input type="checkbox" id="topping1" name="topping1" value="Nuez">
+        <label for="topping1"> Nuez </label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Fresa">
+        <label for="topping2"> Fresa </label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Mango">
+        <label for="topping3"> Mango </label><br>
+        <input type="checkbox" id="topping4" name="topping4" value="Durazno">
+        <label for="topping4"> Durazno </label><br>
+        <input type="checkbox" id="topping5" name="topping5" value="Nutella">
+        <label for="topping5"> Nutella </label><br>
+        <input type="checkbox" id="topping6" name="topping6" value="Uva">
+        <label for="topping6"> Uva</label><br>
+        <input type="checkbox" id="topping7" name="topping7" value="Frambuesas">
+        <label for="topping7"> Frambuesas </label><br>
+
+    </ul>
+    <input type="radio" id="especial" name="Pastel especial" value="Pastel especial">
+    <label for="verde">Pastel especial</label><br>
+    <ul>
+
+        <input type="checkbox" id="especial1" name="especial1" value="Pay de limon">
+        <label for="especial1"> Pay de limon </label><br>
+        <input type="checkbox" id="especial2" name="especial2" value="Fresas con crema">
+        <label for="especial2"> Fresa con crema </label><br>
+        <input type="checkbox" id="especial3" name="especial3" value="Ferrero">
+        <label for="especial3"> Ferrero </label><br>
+        <input type="checkbox" id="especial4" name="especial4" value="Pistache">
+        <label for="especial4"> Pistache </label><br>
+        <input type="checkbox" id="especial5" name="especial5" value="Nutella">
+        <label for="especial5"> Nutella </label><br>
+        <input type="checkbox" id="especial6" name="especial6" value="Canelitas">
+        <label for="especial6"> Canelitas </label><br>
+        <input type="checkbox" id="especial7" name="especial7" value="Kinder">
+        <label for="especial7"> Kinder </label><br>
+
+    </ul>
+    <input type="radio" id="decorativo" name="Pastel decorativo " value="Pastel decorativo ">
+    <label for="guacamole">Pastel decorativo </label><br><br>
+    <ul>
+        <p>Describe a la brebad de que forma quieres tu pastel </p>
+        <input type="text" id="Input1" name="Explicacion">
+        
+        <p>Selecciona los ingredintes que deseas agregar a tu pastel </p>
+        <input type="checkbox" id="topping1" name="topping1" value="Nuez">
+        <label for="topping1"> Nuez </label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Fresa">
+        <label for="topping2"> Fresa </label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Mango">
+        <label for="topping3"> Mango </label><br>
+        <input type="checkbox" id="topping4" name="topping4" value="Durazno">
+        <label for="topping4"> Durazno </label><br>
+        <input type="checkbox" id="topping5" name="topping5" value="Nutella">
+        <label for="topping5"> Nutella </label><br>
+        <input type="checkbox" id="topping6" name="topping6" value="Uva">
+        <label for="topping6"> Uva</label><br>
+        <input type="checkbox" id="topping7" name="topping7" value="Frambuesas">
+        <label for="topping7"> Frambuesas </label><br>
+        
+    </ul>
+    <p>Ya elegido un tipo de pastel te invitamos a llenar los siguientes datos y en breve nos pondremos en contacto</p>
+    <h2>Datos Generales</h2>
+
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+        
+        <label for="correo1">Correo</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+        <label for="tel1">Numero de Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+
+</body>
