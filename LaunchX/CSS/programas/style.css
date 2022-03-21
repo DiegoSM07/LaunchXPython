@@ -1,0 +1,31 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+body{
+    margin: 0;
+    background-color: #efefef;
+    color: darkblue;
+}
+
+header{
+    background-color: white;
+    color: darkgray;
+    padding: 2rem 2rem;
+}
+
+header h1{
+    font-size: 2rem;
+    text-align: left;
+}
+header section{
+    float: right;
+    color: darkgray;
+    margin: -3.5rem 3rem;
+}
+.cuadro1{
+    width: 400px;
+    margin: 5rem 0rem auto;
+    
+}
